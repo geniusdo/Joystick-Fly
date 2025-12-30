@@ -11,6 +11,7 @@ include_directories(third_party/OIS/includes)
 include_directories(include)
 
 add_executable(JoystickFly src/main.cc)
+add_executable(receive src/receive.cc)
 
 link_directories(${CMAKE_BINARY_DIR}/third_party/OIS)
 
